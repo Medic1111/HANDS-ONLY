@@ -1,0 +1,23 @@
+.btn {
+  width: 100%;
+  height: 5vh;
+  border: none;
+  border-radius: 2px;
+  background-color: #f7f7f7;
+  color: rgb(55, 127, 190);
+  color: rgb(79, 88, 94);
+  font-size: 1.7em;
+  letter-spacing: 0.7px;
+}
+.btn:hover {
+  background-color: rgba(201, 69, 54, 0.791);
+  color: #f7f7f7;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+@media (max-width: 798px) {
+  .btnBox {
+    width: 100%;
+  }
+}

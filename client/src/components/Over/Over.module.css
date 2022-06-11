@@ -1,0 +1,12 @@
+.section {
+  margin-top: 7.5vh;
+  height: 85vh;
+  width: 90%;
+  margin-left: 5%;
+  padding: 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(220, 220, 220, 0.163);
+}

@@ -1,0 +1,59 @@
+.section {
+  height: 85vh;
+  width: 90%;
+  margin-left: 5%;
+  padding: 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(220, 220, 220, 0.163);
+}
+.h3 {
+  width: 80%;
+  background-color: rgba(55, 127, 190, 0.872);
+  color: #f7f7f7;
+  padding: 2.5vh 5vw;
+  border-radius: 2px 2px 0 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+  height: 30%;
+  line-height: 1.2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.p {
+  width: 80%;
+  font-size: 2em;
+  letter-spacing: 1px;
+  padding: 2.5vh 5vw;
+  background-color: rgba(55, 127, 190, 0.051);
+  color: rgba(79, 88, 94, 0.896);
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.btnBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 2.5vh 5vw;
+  width: 80%;
+  background-color: rgba(55, 127, 190, 0.051);
+}
+
+@media (max-width: 798px) {
+  .h3,
+  .p,
+  .btnBox {
+    width: 100%;
+  }
+  .h3 {
+    align-items: flex-start;
+    overflow-y: scroll;
+  }
+}
