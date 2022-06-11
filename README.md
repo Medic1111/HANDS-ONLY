@@ -12,6 +12,8 @@
 
 - This is an app that provides 9 quiz explanation and questions detailing the steps needed in order to help in case of cardiac arrest
 
+- These are current guidelines available from The Red Cross.
+
 - At the end of the quiz, the learner has the opportunity to sign up for newsletter to stay updated
 
 # TECH/TOOLS
