@@ -10,3 +10,30 @@
   align-items: center;
   background-color: rgba(220, 220, 220, 0.163);
 }
+.h3 {
+  font-size: 2.7em;
+  margin-bottom: 5vh;
+  color: rgb(79, 88, 94);
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+}
+.btn {
+  font-size: 1.7em;
+  width: 25em;
+  height: 5vh;
+  padding: 1em;
+  height: auto;
+  border: none;
+  background-color: rgb(201, 68, 54);
+  color: #f7f7f7;
+}
+.btn:hover {
+  background-color: rgba(201, 69, 54, 0.82);
+  cursor: pointer;
+}
+
+@media (max-width: 798px) {
+  .h3 {
+    text-align: center;
+  }
+}

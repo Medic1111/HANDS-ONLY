@@ -3,6 +3,7 @@ import classes from "./Over.module.css";
 import overCtx from "../../store/overCtx";
 import quizCtx from "../../store/quizCtx";
 import { useContext } from "react";
+import Subcribe from "../Subscribe/Subscribe";
 
 const Over = () => {
   const overCtxManager = useContext(overCtx);
@@ -13,23 +14,14 @@ const Over = () => {
     quizCtxManager.setCurrentIndex(0);
   };
 
-  const subscribeHandler = (event) => {
-    event.preventDefault();
-    console.log("Subscribing");
-    // Not subscribed? Form
-    // Subscribed? p confirm
-  };
-
   return (
     <MainPortal>
       <section className={classes.section}>
-        <h3>Quiz is Over, Congrats!</h3>
-        <form>
-          <p>Subcribe to our newsletter to keep informed!</p>
-          <input type="email" placeholder="Email" />
-          <button onClick={subscribeHandler}>Subscribe</button>
-        </form>
-        <button onClick={closeOverHandler}>Return Home</button>
+        <h3 className={classes.h3}>Quiz is Over, Congrats!</h3>
+        <Subcribe />
+        <button className={classes.btn} onClick={closeOverHandler}>
+          Return Home
+        </button>
       </section>
     </MainPortal>
   );
