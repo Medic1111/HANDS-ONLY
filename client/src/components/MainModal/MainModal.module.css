@@ -35,6 +35,9 @@
   justify-content: flex-start;
   align-items: center;
 }
+.small {
+  color: rgb(201, 68, 54);
+}
 .btnBox {
   display: flex;
   flex-direction: column;

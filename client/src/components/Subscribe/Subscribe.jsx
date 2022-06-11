@@ -59,7 +59,9 @@ const Subcribe = () => {
         value={userInfo.email_address}
         onChange={inputChangeHandler}
       />
-      {emailInvalid && <p>Please enter a valid email</p>}
+      {emailInvalid && (
+        <p className={classes.small}>Please enter a valid email</p>
+      )}
       <input
         className={classes.input}
         type="text"
@@ -68,7 +70,7 @@ const Subcribe = () => {
         value={userInfo.FNAME}
         onChange={inputChangeHandler}
       />
-      {nameInvalid && <p>First name is required</p>}
+      {nameInvalid && <p className={classes.small}>First name is required</p>}
 
       <input
         className={classes.input}
@@ -78,7 +80,7 @@ const Subcribe = () => {
         value={userInfo.LNAME}
         onChange={inputChangeHandler}
       />
-      {lastInvalid && <p>Last name is required</p>}
+      {lastInvalid && <p className={classes.small}>Last name is required</p>}
 
       <button className={classes.btn} onClick={subscribeHandler}>
         Subscribe

@@ -18,7 +18,7 @@ const MainModal = () => {
           <p className={classes.h3}>{ctxManager.currentLesson.explanation}</p>
           <p className={classes.p}>{ctxManager.currentLesson.question}</p>
           <div className={classes.btnBox}>
-            {ctxManager.correct || <p>TRY AGAIN</p>}
+            {ctxManager.correct || <p className={classes.small}>TRY AGAIN</p>}
             {ctxManager.currentLesson.answers.map((obj, index) => {
               return (
                 <AnswerBtn index={index} obj={obj} key={`answer_${index}`} />

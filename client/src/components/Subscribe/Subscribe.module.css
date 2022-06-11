@@ -13,6 +13,9 @@
   color: rgb(201, 68, 54);
   color: rgb(79, 88, 94);
 }
+.small {
+  color: rgb(201, 68, 54);
+}
 .input {
   outline: none;
   width: 22em;
