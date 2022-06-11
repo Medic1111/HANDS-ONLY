@@ -24,8 +24,9 @@
 @media (max-width: 798px) {
   .header {
     padding: 0;
+    height: 5vh;
   }
   .h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
