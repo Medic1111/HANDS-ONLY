@@ -8,15 +8,14 @@ App that encourages people to provide hands-only CPR in case of cardiac-arrest e
 
 1. FRONTEND:
 
-- React with CRA with state management via useContext hook
+   - React with CRA with state management via useContext hook
 
 2. BACKEND:
 
-- NodeJS, Express, MongoDB-Atlas
+   - NodeJS, Express, MongoDB-Atlas
 
 3. SUBSCRIPTION:
-
-- MailChimp API
+   - MailChimp API
 
 ### STEPS
 
