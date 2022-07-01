@@ -1,6 +1,6 @@
 # HANDS-ONLY
 
-- App that encourages people to provide hands-only CPR in case of cardiac-arrest emergencies
+App that encourages people to provide hands-only CPR in case of cardiac-arrest emergencies
 
 ### TECH/TOOLS
 
