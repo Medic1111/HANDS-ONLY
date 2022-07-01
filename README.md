@@ -2,42 +2,48 @@
 
 - App that encourages people to provide hands-only CPR in case of cardiac-arrest emergencies
 
-# TECH/TOOLS
+### TECH/TOOLS
 
-[FRONTEND]: React with CRA with state management via useContext hook
+1. FRONTEND:
 
-[BACKEND]: NodeJS, Express, MongoDB-Atlas
+- React with CRA with state management via useContext hook
 
-[SUBSCRIPTION]: MailChimp API
+2. BACKEND:
 
-# STEPS
+- NodeJS, Express, MongoDB-Atlas
 
-[1]: Download the doc and run npm install to install all the dependencies
-[2]: Use node server/index.js to run the server/ alternatively use nodemon
-[3]: On a different terminal, cd client and run npm start
+3. SUBSCRIPTION:
 
-# TESTING
+- MailChimp API
 
-ANSWERS:
-c-b-c-a-c-a-b-c-a
+### STEPS
 
-# THE IDEA
+1. Download the doc and run `npm install` to install all the dependencies
+2. Use `node server/index.js` to run the server/ alternatively use nodemon
+3. On a different terminal, `cd client` and run `npm start`
 
-[GOOD_SAM_FEAR]
+### TESTING
 
-- It turns out that an impressive amount of people refrain from providing CPR in case of emergencies out of fear to do the wrong thing.
+- ANSWERS:
+  c-b-c-a-c-a-b-c-a
 
-- Associations such as American Heart Association and Red Cross consistently put effort towards educating good-sams and simplifying guidelines in order to help resolve this issue
+## THE IDEA
 
-[THE_SOLUTION]
+#### GOOD SAM FEAR
 
-- This is an app that provides 9 quiz explanation and questions detailing the steps needed in order to help in case of cardiac arrest
+It turns out that an impressive amount of people refrain from providing CPR in case of emergencies out of fear to do the wrong thing.
 
-- These are current guidelines available from The Red Cross.
+Associations such as American Heart Association and Red Cross consistently put effort towards educating good-sams and simplifying guidelines in order to help resolve this issue
 
-- At the end of the quiz, the learner has the opportunity to sign up for newsletter to stay updated
+#### THE SOLUTION
 
-# THE APPROACH
+This is an app that provides 9 quiz explanation and questions detailing the steps needed in order to help in case of cardiac arrest
+
+These are current guidelines available from The Red Cross.
+
+At the end of the quiz, the learner has the opportunity to sign up for newsletter to stay updated
+
+#### THE APPROACH
 
 - The user is met with with a simple CTA page
 
@@ -55,16 +61,16 @@ c-b-c-a-c-a-b-c-a
 
 - Alternatively, the user may opt out and click return home which closes the modal and resets the quiz
 
-[DATA]
+#### DATA
 
-- Data is fetch from the server with useEffect and axios when root is accessed
+- Data is fetched from the server with useEffect and axios when root is accessed
 
 - The server pulls it from Mongo database
 
 - To avoid multiple requests from the front-end,server response with the data is stored in a hard coded empty array
 
-[THINGS_TO_CHANGE]
+> THINGS TO CHANGE
 
-- At the end of the quiz, a summary of the steps should be rendered to reenforce the concepts learned
+- [ ] At the end of the quiz, a summary of the steps should be rendered to reenforce the concepts learned
 
-[ARYSE_TANSY]: Self-taught full-stack web developer on a life-long journey of learning and applying new skills.
+> ARYSE_TANSY: Self-taught full-stack web developer on a life-long journey of learning and applying new skills.
