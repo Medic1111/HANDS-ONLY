@@ -4,6 +4,12 @@ App that encourages people to provide hands-only CPR in case of cardiac-arrest e
 
 [LIVE-VERSION](https://hands-only.herokuapp.com/)
 
+![Image of home page](./client/public/home.png)
+
+![Image of quiz page](./client/public/quiz.png)
+
+![Image of newsletter sign up page](./client/public/letter.png)
+
 ### TECH/TOOLS
 
 1. FRONTEND:
