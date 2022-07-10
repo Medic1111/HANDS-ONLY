@@ -21,8 +21,8 @@ const HomeHero = () => {
           <h2 className={classes.h2}>Be a hero</h2>
           <p className={classes.p}>
             Learn the easy steps required to make a difference in people's
-            lives. Hands-only CPR is the new way to save lives and learning it
-            is free!
+            lives. Hands-only CPR is the new way to save lives and learning
+            takes 9 questions!
           </p>
           {ctxManager.hasLoaded ? (
             <button onClick={openModalHandler} className={classes.btn}>
